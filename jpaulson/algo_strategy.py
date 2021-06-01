@@ -2,6 +2,7 @@ import gamelib
 import random
 import math
 import warnings
+import sys
 from sys import maxsize
 import json
 
@@ -20,11 +21,14 @@ Advanced strategy tips:
 """
 
 class AlgoStrategy(gamelib.AlgoCore):
-    def __init__(self):
+    def __init__(self, params):
         super().__init__()
         seed = random.randrange(maxsize)
         random.seed(seed)
         gamelib.debug_write('Random seed: {}'.format(seed))
+
+        self.attack_strength = int(params['attack_strength'])
+        self.attack_strength_increase = int(params['attack_strength_increase'])
 
     def on_game_start(self, config):
         """ 
@@ -43,7 +47,6 @@ class AlgoStrategy(gamelib.AlgoCore):
         SP = 0
         # This is a good place to do initial setup
         self.scored_on_locations = []
-        self.attack_strength = 9
 
     def on_turn(self, turn_state):
         """
@@ -87,7 +90,7 @@ class AlgoStrategy(gamelib.AlgoCore):
             game_state.attempt_spawn(SCOUT, best_location, 1000)
         elif game_state.get_resource(MP) >= self.attack_strength:
             game_state.attempt_spawn(DEMOLISHER, best_location, 1000)
-            self.attack_strength += 3
+            self.attack_strength += self.attack_strength_increase
 
     def build_defences(self, game_state):
         """
@@ -230,5 +233,9 @@ class AlgoStrategy(gamelib.AlgoCore):
 
 
 if __name__ == "__main__":
-    algo = AlgoStrategy()
+    if len(sys.argv) >= 2:
+        params = json.loads(open(sys.argv[1]).read())
+    else:
+        params = {'attack_strength': 9, 'attack_strength_increase': 3}
+    algo = AlgoStrategy(params)
     algo.start()
