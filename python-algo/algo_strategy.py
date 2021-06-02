@@ -43,6 +43,10 @@ class AlgoStrategy(gamelib.AlgoCore):
         SP = 0
         # This is a good place to do initial setup
         self.scored_on_locations = []
+        self.turrets = [[2, 13], [3, 13], [4, 13], [24, 13], [25, 13], [26, 13], [27, 13], [3, 12], [4, 12], [24, 12], [25, 12], [26, 12], [4, 11], [5, 11], [24, 11], [25, 11], [5, 10], [24, 10], [6, 9], [7, 8], [8, 7], [9, 6], [10, 6], [11, 6], [12, 6], [13, 6], [14, 6], [15, 6], [16, 6], [17, 6], [18, 6], [19, 6], [12, 5], [13, 5], [14, 5], [16, 5], [17, 5], [18, 5]]
+        self.support = [14,2]
+        self.spawn_point = [15,1]
+        self.walls = [[5, 12], [6, 11], [6, 10], [7, 10], [7, 9], [8, 9], [23, 9], [8, 8], [9, 8], [22, 8], [9, 7], [10, 7], [11, 7], [12, 7], [13, 7], [14, 7], [15, 7], [16, 7], [17, 7], [18, 7], [19, 7], [20, 7], [21, 7], [20, 6], [11, 5], [19, 5], [9, 4], [12, 4], [13, 4], [16, 4], [18, 4], [10, 3], [13, 3], [14, 3], [16, 3], [17, 3], [11, 2], [15, 2], [16, 2], [12, 1], [13, 0], [14, 0]]
 
     def on_turn(self, turn_state):
         """
@@ -108,6 +112,9 @@ class AlgoStrategy(gamelib.AlgoCore):
         """
         # Useful tool for setting up your base locations: https://www.kevinbai.design/terminal-map-maker
         # More community tools available at: https://terminal.c1games.com/rules#Download
+        game_state.attempt_spawn(SUPPORT, self.support_locations)
+        game_state.attempt_spawn(WALL, self.wall_locations)
+        game_state.attempt_spawn(TURRET, self.turret_locations)
 
         # Place turrets that attack enemy units
         turret_locations = [[0, 13], [27, 13], [8, 11], [19, 11], [13, 11], [14, 11]]

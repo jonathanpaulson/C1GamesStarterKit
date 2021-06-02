@@ -76,7 +76,7 @@ class AlgoStrategy(gamelib.AlgoCore):
         """
         game_state = gamelib.GameState(self.config, turn_state)
         gamelib.debug_write('Performing turn {} of your custom algo strategy'.format(game_state.turn_number))
-        #game_state.suppress_warnings(True)  #Comment or remove this line to enable warnings.
+        game_state.suppress_warnings(True)  #Comment or remove this line to enable warnings.
 
         self.starter_strategy(game_state)
 
@@ -95,17 +95,42 @@ class AlgoStrategy(gamelib.AlgoCore):
         For offense we will use long range demolishers if they place stationary units near the enemy's front.
         If there are no stationary units to attack in the front, we will send Scouts to try and score quickly.
         """
-        # Useful tool for setting up your base locations: https://www.kevinbai.design/terminal-map-maker
-        # More community tools available at: https://terminal.c1games.com/rules#Download
+        left_walls = [(x,13-x) for x in range(14)]
+        right_walls = [(27-x, 13-x) for x in range(13)]
+        game_state.attempt_spawn(WALL, left_walls + right_walls)
+        turrets = []
+        for y in range(1,4):
+            for x in range(13-y, 14+y+1):
+                if x != 14:
+                    game_state.attempt_spawn(TURRET, [(x, y)])
+                    game_state.attempt_upgrade([(x, y)])
+	for x in range(1,4):
+	    for y in range(14):
+                game_state.attempt_spawn(TURRET, [(x, y)])
+                game_state.attempt_upgrade([(x, y)])
+        for x in range(24,28):
+	    for y in range(14):
+                game_state.attempt_spawn(TURRET, [(x, y)])
+                game_state.attempt_upgrade([(x, y)])
+        for y in range(14):
+            for x in range(28):
+                game_state.attempt_spawn(TURRET, [(x, y)])
+                game_state.attempt_upgrade([(x, y)])
+
+        game_state.attempt_upgrade(left_walls)
+        game_state.attempt_upgrade(right_walls)
         for unit_type, loc in self.static:
             game_state.attempt_spawn(unit_type, loc)
 
         # Now build reactive defenses based on where the enemy scored
         self.build_reactive_defense(game_state)
 
-        if game_state.get_resource(MP) >= self.attack_strength:
-            game_state.attempt_spawn(INTERCEPTOR, self.spawn_point, 5)
-            game_state.attempt_spawn(DEMOLISHER, self.spawn_point, 1000)
+	spawn_locations = game_state.game_map.get_edge_locations(game_state.game_map.BOTTOM_LEFT) + game_state.game_map.get_edge_locations(game_state.game_map.BOTTOM_RIGHT)
+        best_location, damage = self.least_damage_spawn_location(game_state, spawn_locations)
+        if damage == 0:
+            game_state.attempt_spawn(SCOUT, best_location, 1000)
+        elif game_state.get_resource(MP) >= self.attack_strength:
+            game_state.attempt_spawn(DEMOLISHER, best_location, 1000)
             self.attack_strength += self.attack_strength_increase
 
     def build_reactive_defense(self, game_state):
@@ -187,6 +212,6 @@ if __name__ == "__main__":
     if len(sys.argv) >= 2:
         params = json.loads(open(sys.argv[1]).read())
     else:
-        params = {'attack_strength': 5+9, 'attack_strength_increase': 9}
+        params = {'attack_strength': 9, 'attack_strength_increase': 3}
     algo = AlgoStrategy(params)
     algo.start()
