@@ -1,0 +1,986 @@
+Running algo at: "."
+Using replay: "/mnt/c/Users/jonat/Dropbox/comp_prog/usaco/2021_camp/C1GamesStarterKit/scripts/test_replay.replay"
+Running command: "./run.sh"
+Random seed: 3484779260410276003
+---------------- Starting Your Algo --------------------
+Configuring your custom algo strategy...
+Performing turn 0 of your custom algo strategy
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn EF at location [13, 1]. Not enough resources.
+Could not spawn SI at location [13, 0]. Not enough resources.
+Performing turn 1 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Not enough resources.
+Could not spawn DF at location [5, 12]. Not enough resources.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [2, 13]. Location is blocked.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources. Location is blocked.
+Could not upgrade a unit from [2, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [5, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not spawn EF at location [13, 1]. Not enough resources.
+Could not spawn SI at location [13, 0]. Not enough resources.
+Performing turn 2 of your custom algo strategy
+Could not spawn DF at location [5, 12]. Not enough resources.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [2, 13]. Location is blocked.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources. Location is blocked.
+Could not upgrade a unit from [5, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not spawn EF at location [13, 1]. Not enough resources.
+Could not spawn SI at location [13, 0]. Not enough resources.
+Performing turn 3 of your custom algo strategy
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [2, 13]. Location is blocked.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources. Location is blocked.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not spawn EF at location [13, 1]. Not enough resources.
+Could not spawn SI at location [13, 0]. Not enough resources.
+Performing turn 4 of your custom algo strategy
+Could not spawn DF at location [5, 12]. Not enough resources.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [8, 13]. Not enough resources.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources. Location is blocked.
+Could not upgrade a unit from [5, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not spawn EF at location [1, 13]. Not enough resources. Location is blocked.
+Could not spawn SI at location [1, 12]. Not enough resources.
+Performing turn 5 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Not enough resources. Location is blocked.
+Could not spawn DF at location [5, 12]. Not enough resources.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources. Location is blocked.
+Could not upgrade a unit from [5, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Performing turn 6 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [8, 13]. Not enough resources.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources. Location is blocked.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Performing turn 7 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources. Location is blocked.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources. Location is blocked.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Performing turn 8 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Not enough resources. Location is blocked.
+Could not spawn DF at location [5, 12]. Not enough resources.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources. Location is blocked.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources. Location is blocked.
+Could not upgrade a unit from [5, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Performing turn 9 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources. Location is blocked.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources. Location is blocked.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Got scored on at: [11, 2]
+All locations: [[11, 2]]
+Got scored on at: [11, 2]
+All locations: [[11, 2], [11, 2]]
+Performing turn 10 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources. Location is blocked.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources. Location is blocked.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Performing turn 11 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources. Location is blocked.
+Could not spawn FF at location [8, 13]. Not enough resources.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources. Location is blocked.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Got scored on at: [9, 4]
+All locations: [[11, 2], [11, 2], [9, 4]]
+Got scored on at: [9, 4]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4]]
+Performing turn 12 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources. Location is blocked.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Performing turn 13 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Not enough resources. Location is blocked.
+Could not spawn DF at location [5, 12]. Not enough resources.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources. Location is blocked.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [5, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Performing turn 14 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources. Location is blocked.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Got scored on at: [24, 10]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10]]
+Performing turn 15 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Performing turn 16 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources. Location is blocked.
+Could not spawn FF at location [8, 13]. Not enough resources.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources. Location is blocked.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Performing turn 17 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources. Location is blocked.
+Could not spawn FF at location [5, 13]. Not enough resources.
+Could not spawn FF at location [8, 13]. Not enough resources.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources. Location is blocked.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [5, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Got scored on at: [20, 6]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6]]
+Got scored on at: [20, 6]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6]]
+Performing turn 18 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources. Location is blocked.
+Could not spawn FF at location [2, 13]. Not enough resources.
+Could not spawn FF at location [5, 13]. Not enough resources.
+Could not spawn FF at location [8, 13]. Not enough resources.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources. Location is blocked.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [2, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [5, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Performing turn 19 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [8, 13]. Not enough resources.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Performing turn 20 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [2, 13]. Not enough resources.
+Could not spawn FF at location [5, 13]. Not enough resources.
+Could not spawn FF at location [8, 13]. Not enough resources.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [2, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [5, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Performing turn 21 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [5, 13]. Not enough resources.
+Could not spawn FF at location [8, 13]. Not enough resources.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [5, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Performing turn 22 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Location is blocked.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [2, 13]. Not enough resources.
+Could not spawn FF at location [5, 13]. Not enough resources.
+Could not spawn FF at location [8, 13]. Not enough resources.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [2, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [5, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn EF at location [3, 11]. Not enough resources. Location is blocked.
+Could not spawn SI at location [3, 10]. Not enough resources.
+Got scored on at: [14, 0]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0]]
+Got scored on at: [14, 0]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0]]
+Got scored on at: [14, 0]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0]]
+Got scored on at: [14, 0]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0]]
+Performing turn 23 of your custom algo strategy
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn EF at location [13, 1]. Not enough resources.
+Performing turn 24 of your custom algo strategy
+Could not spawn DF at location [5, 12]. Not enough resources.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [2, 13]. Not enough resources.
+Could not spawn FF at location [5, 13]. Not enough resources.
+Could not spawn FF at location [8, 13]. Not enough resources.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [5, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [2, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [5, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn EF at location [13, 1]. Not enough resources.
+Could not spawn SI at location [13, 0]. Not enough resources.
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5]]
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5]]
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5]]
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5]]
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5]]
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5]]
+Performing turn 25 of your custom algo strategy
+Could not spawn DF at location [5, 12]. Not enough resources.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [5, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn EF at location [25, 12]. Not enough resources.
+Could not spawn EI at location [25, 11]. Not enough resources.
+Performing turn 26 of your custom algo strategy
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [2, 13]. Not enough resources.
+Could not spawn FF at location [5, 13]. Not enough resources.
+Could not spawn FF at location [8, 13]. Not enough resources.
+Could not spawn FF at location [11, 13]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [2, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [5, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn EF at location [25, 12]. Not enough resources.
+Could not spawn EI at location [25, 11]. Not enough resources.
+Performing turn 27 of your custom algo strategy
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn EF at location [25, 12]. Not enough resources.
+Could not spawn EI at location [25, 11]. Not enough resources.
+Got scored on at: [15, 1]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [15, 1]]
+Got scored on at: [15, 1]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [15, 1], [15, 1]]
+Got scored on at: [2, 11]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [15, 1], [15, 1], [2, 11]]
+Performing turn 28 of your custom algo strategy
+Could not spawn DF at location [2, 12]. Not enough resources.
+Could not spawn DF at location [5, 12]. Not enough resources.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [2, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [5, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [15, 2]. Not enough resources.
+Could not spawn DF at location [15, 2]. Not enough resources.
+Could not spawn DF at location [2, 12]. Not enough resources.
+Could not spawn EF at location [25, 12]. Not enough resources.
+Could not spawn EI at location [25, 11]. Not enough resources.
+Got scored on at: [2, 11]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [15, 1], [15, 1], [2, 11], [2, 11]]
+Performing turn 29 of your custom algo strategy
+Could not spawn DF at location [5, 12]. Not enough resources.
+Could not spawn DF at location [8, 12]. Not enough resources.
+Could not spawn DF at location [11, 12]. Not enough resources.
+Could not spawn DF at location [14, 12]. Not enough resources.
+Could not spawn DF at location [17, 12]. Not enough resources.
+Could not spawn DF at location [20, 12]. Not enough resources.
+Could not spawn DF at location [23, 12]. Not enough resources.
+Could not spawn FF at location [14, 13]. Not enough resources.
+Could not spawn FF at location [17, 13]. Not enough resources.
+Could not spawn FF at location [20, 13]. Not enough resources.
+Could not spawn FF at location [23, 13]. Not enough resources.
+Could not upgrade a unit from [5, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [8, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [11, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 12]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [14, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [17, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [20, 13]. Location has no structures or is enemy territory.
+Could not upgrade a unit from [23, 13]. Location has no structures or is enemy territory.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [11, 3]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [9, 5]. Not enough resources.
+Could not spawn DF at location [24, 11]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [20, 7]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [14, 1]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [8, 6]. Not enough resources.
+Could not spawn DF at location [15, 2]. Not enough resources.
+Could not spawn DF at location [15, 2]. Not enough resources.
+Could not spawn DF at location [2, 12]. Not enough resources. Location is blocked.
+Could not spawn DF at location [2, 12]. Not enough resources. Location is blocked.
+Could not spawn EF at location [1, 13]. Not enough resources.
+Could not spawn EI at location [1, 12]. Not enough resources.
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [15, 1], [15, 1], [2, 11], [2, 11], [8, 5]]
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [15, 1], [15, 1], [2, 11], [2, 11], [8, 5], [8, 5]]
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [15, 1], [15, 1], [2, 11], [2, 11], [8, 5], [8, 5], [8, 5]]
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [15, 1], [15, 1], [2, 11], [2, 11], [8, 5], [8, 5], [8, 5], [8, 5]]
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [15, 1], [15, 1], [2, 11], [2, 11], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5]]
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [15, 1], [15, 1], [2, 11], [2, 11], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5]]
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [15, 1], [15, 1], [2, 11], [2, 11], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5]]
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [15, 1], [15, 1], [2, 11], [2, 11], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5]]
+Got scored on at: [8, 5]
+All locations: [[11, 2], [11, 2], [9, 4], [9, 4], [24, 10], [20, 6], [20, 6], [14, 0], [14, 0], [14, 0], [14, 0], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [15, 1], [15, 1], [2, 11], [2, 11], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5], [8, 5]]
+Got end state, game over. Stopping algo.

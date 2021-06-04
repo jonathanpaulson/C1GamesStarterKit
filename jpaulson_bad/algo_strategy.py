@@ -47,6 +47,24 @@ class AlgoStrategy(gamelib.AlgoCore):
         SP = 0
         # This is a good place to do initial setup
         self.scored_on_locations = []
+        self.static = [
+            (SUPPORT, [14,2]),
+            (WALL, [4,13]),
+            (WALL, [5,12]),
+            (WALL, [6, 11]),
+            (WALL, [7, 10]),
+        ] + [(WALL, [x,9] for x in range(8, 24)] +
+        [
+            (TURRET, [24, 10]),
+            (TURRET, [25, 11]),
+            (TURRET, [26, 12]),
+            (TURRET, [27, 13]),
+            (TURRET, [3, 13]),
+            (TURRET, [4, 12]),
+            (TURRET, [5, 11]),
+            (TURRET, [6, 10]),
+            (TURRET, [7, 9])
+        ]
 
     def on_turn(self, turn_state):
         """
@@ -58,7 +76,7 @@ class AlgoStrategy(gamelib.AlgoCore):
         """
         game_state = gamelib.GameState(self.config, turn_state)
         gamelib.debug_write('Performing turn {} of your custom algo strategy'.format(game_state.turn_number))
-        game_state.suppress_warnings(True)  #Comment or remove this line to enable warnings.
+        #game_state.suppress_warnings(True)  #Comment or remove this line to enable warnings.
 
         self.starter_strategy(game_state)
 
@@ -77,41 +95,17 @@ class AlgoStrategy(gamelib.AlgoCore):
         For offense we will use long range demolishers if they place stationary units near the enemy's front.
         If there are no stationary units to attack in the front, we will send Scouts to try and score quickly.
         """
-        left_walls = [(x,13-x) for x in range(14)]
-        right_walls = [(27-x, 13-x) for x in range(13)]
-        game_state.attempt_spawn(WALL, left_walls + right_walls)
-        turrets = []
-        for y in range(1,4):
-            for x in range(13-y, 14+y+1):
-                if x != 14:
-                    game_state.attempt_spawn(TURRET, [(x, y)])
-                    game_state.attempt_upgrade([(x, y)])
-        for x in range(1,4):
-            for y in range(14):
-                game_state.attempt_spawn(TURRET, [(x, y)])
-                game_state.attempt_upgrade([(x, y)])
-        for x in range(24,28):
-            for y in range(14):
-                game_state.attempt_spawn(TURRET, [(x, y)])
-                game_state.attempt_upgrade([(x, y)])
-        for y in range(14):
-            for x in range(28):
-                if x != 14:
-                    game_state.attempt_spawn(TURRET, [(x, y)])
-                    game_state.attempt_upgrade([(x, y)])
-
-        game_state.attempt_upgrade(left_walls)
-        game_state.attempt_upgrade(right_walls)
+        # Useful tool for setting up your base locations: https://www.kevinbai.design/terminal-map-maker
+        # More community tools available at: https://terminal.c1games.com/rules#Download
+        for unit_type, loc in self.static:
+            game_state.attempt_spawn(unit_type, loc)
 
         # Now build reactive defenses based on where the enemy scored
         self.build_reactive_defense(game_state)
 
-        spawn_locations = game_state.game_map.get_edge_locations(game_state.game_map.BOTTOM_LEFT) + game_state.game_map.get_edge_locations(game_state.game_map.BOTTOM_RIGHT)
-        best_location, damage = self.least_damage_spawn_location(game_state, spawn_locations)
-        if damage == 0:
-            game_state.attempt_spawn(SCOUT, best_location, 1000)
-        elif game_state.get_resource(MP) >= self.attack_strength:
-            game_state.attempt_spawn(DEMOLISHER, best_location, 1000)
+        if game_state.get_resource(MP) >= self.attack_strength:
+            game_state.attempt_spawn(INTERCEPTOR, self.spawn_point, 5)
+            game_state.attempt_spawn(DEMOLISHER, self.spawn_point, 1000)
             self.attack_strength += self.attack_strength_increase
 
     def build_reactive_defense(self, game_state):
@@ -145,13 +139,10 @@ class AlgoStrategy(gamelib.AlgoCore):
                 damages.append(damage)
             else:
                 damages.append(1000)
-
+        
         # Now just return the location that takes the least damage
-        if damages:
-            best_index = damages.index(min(damages))
-            return (location_options[best_index], damages[best_index])
-        else:
-            return ([14,0], 1000)
+        best_index = damages.index(min(damages))
+        return (location_options[best_index], damages[best_index])
 
     def detect_enemy_unit(self, game_state, unit_type=None, valid_x = None, valid_y = None):
         total_units = 0
@@ -161,7 +152,7 @@ class AlgoStrategy(gamelib.AlgoCore):
                     if unit.player_index == 1 and (unit_type is None or unit.unit_type == unit_type) and (valid_x is None or location[0] in valid_x) and (valid_y is None or location[1] in valid_y):
                         total_units += 1
         return total_units
-
+        
     def filter_blocked_locations(self, locations, game_state):
         filtered = []
         for location in locations:
@@ -177,7 +168,7 @@ class AlgoStrategy(gamelib.AlgoCore):
         Full doc on format of a game frame at in json-docs.html in the root of the Starterkit.
         """
         pass
-    # Let's record at what position we get scored on
+        # Let's record at what position we get scored on
         #state = json.loads(turn_string)
         #events = state["events"]
         #breaches = events["breach"]
@@ -196,6 +187,6 @@ if __name__ == "__main__":
     if len(sys.argv) >= 2:
         params = json.loads(open(sys.argv[1]).read())
     else:
-        params = {'attack_strength': 9, 'attack_strength_increase': 3}
+        params = {'attack_strength': 5+9, 'attack_strength_increase': 9}
     algo = AlgoStrategy(params)
     algo.start()
